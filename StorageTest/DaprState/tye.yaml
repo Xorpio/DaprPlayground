@@ -1,0 +1,22 @@
+# tye application configuration file
+# read all about it at https://github.com/dotnet/tye
+#
+# when you've given us a try, we'd love to know what you think:
+#    https://aka.ms/AA7q20u
+#
+name: daprstate
+extensions:
+- name: dapr
+  log-level: debug
+  components-path: "./components/"
+
+services:
+- name: backend
+  project: Backend/Backend.csproj
+- name: service-item
+  project: Service.Item/Service.Item.csproj
+- name: redis
+  image: redis
+  bindings: 
+  - port: 6379
+

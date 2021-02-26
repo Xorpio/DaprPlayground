@@ -30,7 +30,7 @@ namespace Service.Item
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Service.Item", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Backend", Version = "v1" });
             });
         }
 
@@ -41,10 +41,8 @@ namespace Service.Item
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Service.Item v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Backend v1"));
             }
-
-            app.UseHttpsRedirection();
 
             app.UseRouting();
 

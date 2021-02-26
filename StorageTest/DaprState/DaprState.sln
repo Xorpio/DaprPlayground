@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{F26B2841-4DAF-427C-921E-6E880EEFCC0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "Backend\Backend.csproj", "{F26B2841-4DAF-427C-921E-6E880EEFCC0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Item", "Service.Item\Service.Item.csproj", "{DB4959BE-24BA-4EA7-89EA-063C4DA2BAD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.Item", "Service.Item\Service.Item.csproj", "{DB4959BE-24BA-4EA7-89EA-063C4DA2BAD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{383DD3A2-287C-445C-B967-B24329319EBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F26B2841-4DAF-427C-921E-6E880EEFCC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +43,11 @@ Global
 		{DB4959BE-24BA-4EA7-89EA-063C4DA2BAD9}.Release|x64.Build.0 = Release|Any CPU
 		{DB4959BE-24BA-4EA7-89EA-063C4DA2BAD9}.Release|x86.ActiveCfg = Release|Any CPU
 		{DB4959BE-24BA-4EA7-89EA-063C4DA2BAD9}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {468DEFE9-900B-4B89-A7D4-8C89B0C013C8}
 	EndGlobalSection
 EndGlobal
